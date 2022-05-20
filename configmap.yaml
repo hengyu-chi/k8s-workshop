@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-first-configmap
+data:
+  FLASK_ENV: "development"
+  FLASK_APP: "main.py"
